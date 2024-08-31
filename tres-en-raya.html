@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="tres-en-raya.css" />
+    <title>Tres en Raya Mejorado</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Tres en Raya</h1>
+      <div class="game-info">
+        <div id="turn-info">Turno: <span id="current-turn">X</span></div>
+        <div id="score">
+          X: <span id="score-x">0</span> | O: <span id="score-o">0</span> |
+          Empates: <span id="score-ties">0</span>
+        </div>
+      </div>
+      <div class="grid" id="board">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+      <div class="controls">
+        <button id="reset-btn">Reiniciar Juego</button>
+        <button id="ai-toggle">Jugar contra IA</button>
+      </div>
+    </div>
+    <script src="tres-en-raya.js"></script>
+  </body>
+</html>
